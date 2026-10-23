@@ -10,7 +10,7 @@ header{
     width: 100%;
     left: 0;
     top: 0;
-    background-color:skyblue;
+    background:darkcyan;
     padding: 0 10px;
 }
 .navbar{
@@ -52,8 +52,9 @@ h3{
     width: 100%;
     max-width: 420px;
     padding: 50px;
-    background: lightgrey;
+    background: darkkhaki;
     border-radius: 14px;
+    margin-top: 28px;
 }
 main{
     padding: 200px;
@@ -65,22 +66,28 @@ main{
     align-items: center;
     box-sizing: border-box;
     padding: 70px 20px;
+    background: mintcream;
 
 }
 .back{
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 14px;
     margin-bottom: 25px;
 }
 .back-button{
-    background: darkblue;
+    background: darkcyan;
     width: 100%;
     padding: 10px;
     color: white;
     border: none;
     border-radius: 10px;
+    transition: all 0.25s ease-in-out;
+}
+.back-button:hover{
+    background: brown;
+    transform: scaleX(1.1);
 }
 .form-box h2{
     text-align: center;
@@ -104,8 +111,8 @@ main{
     display: block;
     width: 100%;
     padding: 13px;
-    border: 1px solid;
-    border-radius: 8px;
+    border: none;
+    border-radius: 10px;
     box-sizing: border-box;
     outline: none;
 }
@@ -121,16 +128,18 @@ main{
 }
 .login-button{
     width: 100%;
+    margin-left: 125px;
     padding: 14px;
-    background: darkblue;
+    background: darkcyan;
     color: white;
+    text-decoration: none;
     border: none;
     border-radius: 8px;
     font-size: 15px;
     font-weight: bold;
 }
 .login-button:hover{
-    background-color: maroon;
+    background: brown;
 }
 .account{
     text-align: center;
