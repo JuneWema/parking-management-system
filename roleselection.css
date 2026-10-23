@@ -7,6 +7,7 @@
 }
 main{
     padding-top: 100px;
+    background: mintcream;
 }
 .intro{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background.jpeg);
@@ -20,12 +21,12 @@ main{
     justify-content: center;
 }
 .intro h2{
-    color:white;
+    color: mintcream;
     font-size: 40px;
     font-weight: bold;
 }
 .intro p{
-    color: white;
+    color: mintcream;
     font-size: 20px;
 }
 .navbar .logo img{
@@ -36,11 +37,11 @@ header{
     width: 100%;
     left: 0;
     top: 0;
-    background-color:skyblue;
+    background-color:darkcyan;
     padding: 0 10px;
 }
 h3{
-    color:black;
+    color: black;
 }
 .navbar{
     display: flex;
@@ -71,13 +72,13 @@ img{
     margin-right: auto;
 }
 .cont:hover{
-    background-color: maroon;
+    background-color: brown;
 }
 .cont{
     color: white;
     border-radius: 15px;
     padding: 10px 20px;
-    background-color: blue;
+    background-color:darkcyan;
     border: none;
     gap: 20px;
 }
@@ -95,6 +96,7 @@ svg{
     padding: 30px 5%;
     gap: 25px;
     grid-template-columns: repeat(4 , 1fr);
+    transition: all 0.5s ease-in;
 }
 .student,.staff,.visitor,.admin{
     min-height: 400px;
@@ -102,9 +104,8 @@ svg{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 2px solid darkblue;
-    box-shadow: 5px 15px rgba(0, 0, 0, 0.08);
-    border-radius: 10px;
-    background-color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    background-color:darkkhaki;
     text-align: center;
 }
